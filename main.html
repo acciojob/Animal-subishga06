@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Photo Gallery</title>
+  <style>
+    /* Basic styling for layout (optional, not required for functionality) */
+    #animal-photos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      border: 2px solid #333;
+      border-radius: 8px;
+    }
+
+    #photo-heading {
+      text-align: center;
+      font-size: 1.8em;
+      margin-top: 20px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
-</body>
+  <!-- ✅ Main Container -->
+  <div id="animal-photos">
 
-</html>
+    <!-- ✅ Heading -->
+    <h1 id="photo-heading">Animal Photos</h1>
+
+    <!-- ✅ Animal Images -->
+    <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/camel.jpg" alt="camel">
+    <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/cheetah.jpg" alt="cheetah">
+    <img src="https://www2.d125.org/applied_ar_
